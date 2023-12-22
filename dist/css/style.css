@@ -1408,6 +1408,10 @@ body._touch .menu__list > li._active .menu__arrow {
   .block-1-02__flex {
     display: block;
   }
+
+  .block-1-02__info {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 47.99875em) {
