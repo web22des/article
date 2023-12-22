@@ -1018,15 +1018,15 @@ body._touch .menu__list > li._active .menu__arrow {
   margin-bottom: 20px;
 }
 
-@supports (max-width: clamp( 18.75rem , 17.6136363636rem  +  5.6818181818vw , 21.875rem )) {
+@supports (max-width: clamp( 18.75rem , 18.6363636364rem  +  0.5681818182vw , 19.0625rem )) {
   .hero-03__img {
-    max-width: clamp( 18.75rem , 17.6136363636rem  +  5.6818181818vw , 21.875rem );
+    max-width: clamp( 18.75rem , 18.6363636364rem  +  0.5681818182vw , 19.0625rem );
   }
 }
 
-@supports not (max-width: clamp( 18.75rem , 17.6136363636rem  +  5.6818181818vw , 21.875rem )) {
+@supports not (max-width: clamp( 18.75rem , 18.6363636364rem  +  0.5681818182vw , 19.0625rem )) {
   .hero-03__img {
-    max-width: calc(18.75rem + 3.125 * (100vw - 20rem) / 55);
+    max-width: calc(18.75rem + 0.3125 * (100vw - 20rem) / 55);
   }
 }
 
