@@ -1247,6 +1247,39 @@ body._touch .menu__list > li._active .menu__arrow {
   color: #fff;
 }
 
+.block-1-04 .text,
+.block-1-04 .title-4 {
+  color: #fff;
+}
+
+.block-1-04__inner {
+  position: relative;
+  min-height: 100vh;
+}
+
+.block-1-04__images {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.block-1-04__img {
+  border-radius: 50%;
+  border: 8px solid #fff;
+}
+
+.block-1-04__info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 650px;
+  background-color: #fff;
+}
+
+.block-1-04__info .text {
+  color: #111111;
+}
+
 /*
 .icon-menu {
 	display: none;
