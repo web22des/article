@@ -3301,6 +3301,28 @@ body._touch .menu__list > li._active .menu__arrow {
   min-height: 100vh;
 }
 
+.block-1-04__inner::before {
+  content: "";
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  left: 0;
+  bottom: 0;
+  background-color: #F58D54;
+  border-radius: 50%;
+}
+
+.block-1-04__inner::after {
+  content: "";
+  position: absolute;
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+  border: 50px solid #435152;
+  top: 0;
+  right: 0;
+}
+
 .block-1-04__images {
   position: absolute;
   top: 0;
@@ -3358,6 +3380,20 @@ body._touch .menu__list > li._active .menu__arrow {
   color: #F58D54;
   font-family: "icomoon";
   padding-left: 8px;
+}
+
+.no-webp .block-1-05{
+  background-image: url(../img/block-1-05/1.jpg); }
+
+.block-1-05 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Черный цвет с непрозрачностью 0.5 */
+  background-blend-mode: multiply;
+  /* Умножение цветов для затемнения */
+  color: #fff;
 }
 
 /*
@@ -3628,9 +3664,17 @@ body._touch .menu__list > li._active .menu__arrow {
         align-self: center;
   }
 
+  .block-1-04__inner::before {
+    display: none;
+  }
+
+  .block-1-04__inner::after {
+    display: none;
+  }
+
   .block-1-04__images {
     position: relative;
-    margin-bottom: 16px;
+    margin: 0 auto 32px auto;
   }
 
   .block-1-04__info {
@@ -3649,3 +3693,5 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 
 .webp .hero-03{ background-image: url(../img/hero-03/hero-1.webp); }
+
+.webp .block-1-05{ background-image: url(../img/block-1-05/1.webp); }
